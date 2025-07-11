@@ -1,0 +1,14 @@
+name: 'telegram_dw'
+version: '1.0'
+
+profile: 'default'
+
+source-paths: ["models"]
+analysis-paths: ["analyses"]
+test-paths: ["tests"]
+data-paths: ["data"]
+macro-paths: ["macros"]
+
+models:
+  telegram_warehouse:
+    +materialized: table
