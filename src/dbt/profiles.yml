@@ -1,4 +1,4 @@
-telegram_data_warehouse:
+telegram_dw:
   outputs:
     dev:
       type: postgres
