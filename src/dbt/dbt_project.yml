@@ -1,7 +1,7 @@
 name: 'telegram_dw'
 version: '1.0'
 
-profile: 'default'
+profile: 'profiles.yml'
 
 source-paths: ["models"]
 analysis-paths: ["analyses"]
