@@ -1,0 +1,11 @@
+telegram_data_warehouse:
+  outputs:
+    dev:
+      type: postgres
+      host: localhost
+      port: 5432
+      user: postgres
+      password: Fira@0412
+      dbname: telegram_data_warehouse
+      schema: public
+  target: dev
