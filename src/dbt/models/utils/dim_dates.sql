@@ -2,10 +2,10 @@
 
 WITH date_spine AS (
     SELECT generate_series(
-        (SELECT MIN(message_date) FROM {{ ref('stg_telegram_messages') }},
-        (SELECT MAX(message_date) FROM {{ ref('stg_telegram_messages') }},
-        '1 day'
-    )::DATE AS date_day
+        (SELECT MIN(message_date)::DATE FROM {{ ref('stg_telegram_messages') }}),
+        (SELECT MAX(message_date)::DATE FROM {{ ref('stg_telegram_messages') }}),
+        INTERVAL '1 day'
+    ) AS date_day
 )
 SELECT
     date_day,

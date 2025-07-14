@@ -11,3 +11,6 @@ sqlalchemy
 httpx
 dotenv
 dbt-postgres
+ultralytics
+opencv-python
+torch

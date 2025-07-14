@@ -1,4 +1,4 @@
-telegram_data_warehouse:
+telegram_dw:
   outputs:
     dev:
       type: postgres
@@ -6,6 +6,6 @@ telegram_data_warehouse:
       port: 5432
       user: postgres
       password: Fira@0412
-      dbname: telegram_data_warehouse
+      dbname: telegram_dw
       schema: public
   target: dev
