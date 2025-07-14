@@ -2,11 +2,12 @@ name: 'telegram_dw'
 version: '1.0'
 
 profile: 'profiles.yml'
+profile: 'telegram_dw'
 
-source-paths: ["models"]
 analysis-paths: ["analyses"]
+model-paths: ["models"]
+seed-paths: ["data"]
 test-paths: ["tests"]
-data-paths: ["data"]
 macro-paths: ["macros"]
 
 models:

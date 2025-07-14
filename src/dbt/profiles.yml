@@ -6,6 +6,6 @@ telegram_dw:
       port: 5432
       user: postgres
       password: Fira@0412
-      dbname: telegram_data_warehouse
+      dbname: telegram_dw
       schema: public
   target: dev
