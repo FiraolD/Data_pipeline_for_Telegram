@@ -6,6 +6,10 @@ __pycache__/
 # C extensions
 *.so
 *.env
+Data/
+.tmp_dagster_home_c3ua2nku
+session_name.session
+yolov8n.pt
 # Distribution / packaging
 .Python
 build/
