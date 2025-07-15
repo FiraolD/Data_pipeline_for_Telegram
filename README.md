@@ -125,6 +125,7 @@ Data_pipeline_for_Telegram/
 - `dim_channels`: Metadata about each channel
 - `dim_dates`: Date spine for time-based analysis
 
+
 Run dbt models:
 
 ```bash
