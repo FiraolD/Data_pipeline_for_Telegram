@@ -10,4 +10,4 @@ def run_full_pipeline():
     raw_data = scrape_telegram_data()
     loaded = load_raw_to_postgres(raw_data)
     transformed = run_dbt_transformations(loaded)
-    detected = run_yolo_detection(transformed)
+    detected = run_yolo_detection(transformed)S
