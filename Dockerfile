@@ -30,3 +30,6 @@ EXPOSE 8000
 
 # Start the FastAPI app
 CMD ["uvicorn", "src.main:app", "--host", "0.0.0.0", "--port", "8000"]
+
+# Start Dagster dev server
+CMD ["dagster", "dev", "-f", "src/dagster/jobs/pipeline_job.py", "-j", "run_full_pipeline"]
