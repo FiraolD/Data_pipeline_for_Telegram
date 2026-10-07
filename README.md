@@ -48,7 +48,7 @@ Create `.env` file:
 ```env
 DB_NAME=telegram_dw
 DB_USER=postgres
-DB_PASSWORD=Fira@0412
+DB_PASSWORD=your password
 DB_HOST=localhost
 DB_PORT=5432
 ```
